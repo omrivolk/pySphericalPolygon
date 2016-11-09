@@ -1,9 +1,15 @@
 pySphericalPolygon
 ==================
 
-
 Perform point in polygon operations 
 
+Install
+-----
+
+.. code-block:: python
+
+  pip install pySphericalPolygon
+  
 Usage
 -----
 
