@@ -1,0 +1,9 @@
+README.rst
+setup.py
+pySphericalPolygon/__init__.py
+pySphericalPolygon.egg-info/PKG-INFO
+pySphericalPolygon.egg-info/SOURCES.txt
+pySphericalPolygon.egg-info/dependency_links.txt
+pySphericalPolygon.egg-info/not-zip-safe
+pySphericalPolygon.egg-info/requires.txt
+pySphericalPolygon.egg-info/top_level.txt
