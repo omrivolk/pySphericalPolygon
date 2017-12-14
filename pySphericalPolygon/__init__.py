@@ -228,7 +228,7 @@ class SpericalPolygon(object):
         try:
             from mpl_toolkits.basemap import Basemap
         except Exception as e:
-            print e
+            print(e)
             raise ImportError("This function requiers Basemap, please install and try again")
 
         lons,lats=np.meshgrid(np.arange(-180,180.01,resolution),np.arange(-90,90.01,resolution))
