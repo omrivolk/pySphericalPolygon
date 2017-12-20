@@ -1,7 +1,7 @@
 pySphericalPolygon
 ==================
 
-Perform point in polygon operations 
+Perform point in polygon operations on a sphere. Handles any polygon which can be viewed on a single hemisphere including around the poles. 
 
 Install
 -----
