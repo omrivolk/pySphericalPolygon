@@ -6,7 +6,7 @@
 Python module to handle points in spherical polygon operations.
 
 This module, unlike existing modules for the same operation,
-does not require specifying a points inside the polygon.
+does not require specifying a point inside the polygon.
 
 A spherical polygon is a closed geometric figure on the 
 surface of a sphere which is formed by the arcs of great circles.
@@ -29,9 +29,9 @@ Psuedo code:
 
     use a 2D point in polygon algorithm 
 
-This works since in gnomic projection great circles are drawn as stright lines
+This works becuse in gnomic projection great circles are projected as stright lines
 
-By: Omri V, October 2016, omryv@post.bgu.ac.il
+By: Omry V, October 2016, omryv@post.bgu.ac.il
 
 License: MIT 
 
