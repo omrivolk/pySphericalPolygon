@@ -310,8 +310,7 @@ def mean_and_r_sphrical_polygon(points):
     
     #check the size of the polygon
     if d_angle>np.pi/2.:
-        raise ValueError('''This polygon is too big for gnomic projection.This library can only handle polygons which can ne viewd on a single hemasphire''')
-    
+        raise ValueError('''This polygon is too big for gnomic projection (%s>%s). This library can only handle polygons which can be viewed on a single hemisphere.''' % (d_angle, np.pi/2.))
     #convert back to spherical coordinates 
     mean_phi = np.arctan2(mean[1],mean[0])
     mean_tetha = np.arccos(mean[2])
