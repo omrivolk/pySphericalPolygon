@@ -10,6 +10,7 @@ This module, unlike existing modules for the same operation, does not require sp
 A spherical polygon is a closed geometric figure on the surface of a sphere which is formed by the arcs of great circles. Unlike a polygon on a 2D plain, where the outside of a polygon is of infinte area, on a sphere both the inside and outside are finite. Therefore common algorithms will require a point inside the polygon to decide which is in and which is out. This module uses a diffrent algorithm which assumes the smaller area is the inside. The disadvantage of this algorithm is that it can't handle  polygons which can't be viewd on a single hemasphire. Such polygons are extremly rear in most applications.
 
 Psuedo code:
+
 .. code-block::
 
 	convert the polygon to 3D cartesian coordinates and approximate it's mean
