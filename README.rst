@@ -13,10 +13,10 @@ Psuedo code:
 
 .. code-block::
 
-	convert the polygon to 3D cartesian coordinates and approximate it's mean
-	project the polygon onto a plain using gnomic projection with it's mean as the projection point
-	project the points which needs to be checked onto the same plain
-	use a 2D point in polygon algorithm 
+	Convert the polygon to 3D cartesian coordinates and approximate it's mean
+	Project the polygon onto a plain using gnomic projection with it's mean as the projection point
+	Project the points which needs to be checked onto the same plain
+	Use a 2D point in polygon algorithm 
     
 This works becuse in gnomic projection great circles are projected as stright lines
 
